@@ -1,5 +1,13 @@
 # VeryNginx
+[![Docker Pulls](https://img.shields.io/docker/pulls/wyvernnot/verynginx.svg?style=flat-square)](https://hub.docker.com/r/wyvernnot/verynginx/)
+
 VeryNginx is a very powerful and friendly nginx .
+
+> 改动
+> - 添加了一些常用工具 htop vim tree 等
+> - 移动了一下 Dockerfile 的位置
+> - 登录页面添加了一个图片
+> - 配置和日志持久化
 
 [中文文档](https://github.com/alexazhou/VeryNginx/blob/master/readme_zh.md)
 

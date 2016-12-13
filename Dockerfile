@@ -13,5 +13,6 @@ RUN groupadd -r nginx && useradd -r -g nginx nginx
 RUN python install.py install
 
 EXPOSE 80
+VOLUME ["/opt/verynginx/verynginx/configs","/opt/verynginx/openresty/nginx/logs"]
 
 CMD ["/opt/verynginx/openresty/nginx/sbin/nginx", "-g", "daemon off; error_log /dev/stderr info;"]
